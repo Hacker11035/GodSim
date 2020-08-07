@@ -16,5 +16,7 @@
   <author href="https://youtube.com/inspector11" email="mefish32@hotmail.com">
       James Kittle III
   </author>
+    
+  <icon src="icon.png" />
 
 </widget>
