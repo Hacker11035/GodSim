@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.jjkcodez.godsim"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name short="God Sim">God Simulator</name>
+
+  <description>
+      See what it is like to be a god!
+  </description>
+
+  <author href="https://youtube.com/inspector11" email="mefish32@hotmail.com">
+      James Kittle III
+  </author>
+
+</widget>
