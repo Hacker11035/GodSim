@@ -32,7 +32,7 @@ b<br>s<br>o<br>c<br>i<br>a<br>l<br>i<br>s<br>t<br>h<br>e<br>b<br>e<br>s<br>t<br>
 </div>
 </div>
 <br>
-<button onclick="yes()" id="yes">Yes</button><br><button onclick="no()" id="no">No</button>
+<p2 class="mbutton" onclick="yes()" id="yes">Yes</p2><br><no class="mbutton" onclick="no()" id="no">No</no>
 <p id="followers">No Followers Gained</p>
 </div>
 <div id="options">
@@ -56,7 +56,7 @@ b<br>s<br>o<br>c<br>i<br>a<br>l<br>i<br>s<br>t<br>h<br>e<br>b<br>e<br>s<br>t<br>
 <div class="break2">
 1
 </div>
-<button onclick="randomg()">Random</button><button onclick="cgn()">Change</button><br>
+<p2 onclick="randomg()">Random</p2><p2 onclick="cgn()">Change</p2><br>
 <p1 onclick="menu3()" style="cursor: pointer;">Back</p1>
 </div>
 <div id="changern">
@@ -68,12 +68,44 @@ b<br>s<br>o<br>c<br>i<br>a<br>l<br>i<br>s<br>t<br>h<br>e<br>b<br>e<br>s<br>t<br>
 <div class="break2">
 1
 </div>
-<button onclick="randomr()">Random</button><button onclick="crn()">Change</button><br>
+<p2 onclick="randomr()">Random</p2><p2 onclick="crn()">Change</p2><br>
 <p1 onclick="menu2()" style="cursor: pointer;">Back</p1>
 </div>
 <p id="fgained"></p>
 </body>
 <style>
+#changern input {
+  max-width: 75%;
+  border-radius: 7px;
+}
+#changegn input {
+  max-width: 75%;
+  border-radius: 7px;
+}
+#changern p2 {
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  margin: auto;
+  max-width: 20%;
+  color: brown;
+  font-size: 100%;
+  background-color: #f0f0f0;
+  border: solid #cccccc;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#changegn p2 {
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  margin: auto;
+  max-width: 20%;
+  color: brown;
+  font-size: 100%;
+  background-color: #f0f0f0;
+  border: solid #cccccc;
+  cursor: pointer;
+  border-radius: 10px;
+}
 #html2 {
   display: none;
 }
@@ -432,7 +464,8 @@ setInterval(show,5000);
 </html>
 <div id="intro">
 <h1 class="block-effect" style="--td: 1.2s">
-  <div class="block-reveal" style="--bc: #126e46; --d: .1s;">JJK Codez</div>
+  <div class="block-reveal" style="--bc: #126e46; --d: .1s;"><img style="width:50px;width:50px;vertical-align:top" src='icon.svg'
+/>JJK Codez</div>
   <!--<div class="block-reveal" style="--bc: #bf4060; --d: .5s">Presents</div>
   <div class="block-reveal" style="--bc: green; --d: .9s">God Sim</div>-->
 </h1>
@@ -482,7 +515,7 @@ p {
 
   color: transparent;
   padding: 4px;
-
+  
   position: relative;
   overflow: hidden;
 
